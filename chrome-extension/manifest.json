@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Outcognito Mode",
+  "description": "Incognito Mode for extroverts",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["outcognito.js"]
+    }
+  ]
+}
