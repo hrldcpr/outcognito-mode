@@ -6,7 +6,7 @@ import api
 app = flask.Flask(__name__)
 flask_cors.CORS(app)
 
-@app.route('/outcognito/tweet', methods=['GET', 'POST'])
+@app.route('/tweet', methods=['POST'])
 def tweet():
     api.post('statuses/update', status=flask.request.values['status'])
     return 'ok'

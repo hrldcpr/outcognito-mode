@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Outcognito Mode",
-  "version": "0.0.2",
+  "version": "0.0.3",
 
   "description": "Incognito Mode for extroverts",
   "icons": {"128": "outcognito128.png"},

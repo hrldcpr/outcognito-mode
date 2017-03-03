@@ -2,7 +2,7 @@ const tweet = (status) => {
   const body = new FormData();
   body.append('status', status);
 
-  fetch('https://x.st/outcognito/tweet', {
+  fetch('https://outcognito.x.st/tweet', {
     method: 'POST',
     body
   });
