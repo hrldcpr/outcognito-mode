@@ -1,4 +1,4 @@
-Flask==0.12
+Flask==1.0
 Flask-Cors==3.0.2
 psycopg2==2.7
 requests==2.13.0
